@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(228, 228, 228);
+}
+ .container{
+    width: 900px;
+    height: 760px;
+    border: 1px solid black;
+    background-image: url("../image/img.jpg");
+    position: relative;
+    float: right;
+    left: -30%;
+    margin-top: 100px;
+
+}
+.InnerContainer{
+    width: 840px;
+    height: 740px;
+    border: 1px solid black;
+    background-color: white;
+    left: 30px;
+    top: 19px;
+    position: absolute
+}
+header{
+    width: 100%;
+    height: 120px;
+   
+    position: absolute;
+}
+/* header */
+header h1{
+    margin:10px 300px;
+    position: absolute
+}
+header p{
+    position: absolute;
+    margin: 45px 270px;
+}
+
+
+/* Navigation */
+nav ul li{
+    float: left;
+    margin: 40px 10px;
+
+
+}
+nav ul li a{
+    color: rgba(187, 168, 168, 0.727);
+}
+nav ul li:nth-of-type(1) a{
+    color: darkcyan;
+}
+nav ul li a:hover{
+  color: darkcyan;  
+}
+
+nav ul{
+    
+  margin: 60px 120px
+
+
+}
+/* Section */
+.ImgBox{
+    width: 400px;
+    height: 200px;
+    background-color: ;
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
+ .WordBox{
+width: 250px;
+height: 200px;
+position: absolute;
+margin-left: 527px;
+ margin-top: -53px;
+}
+
+.WordBox h2{
+    font-size: 30px
+}
+
+.WordBox button{
+    background-color: rgb(0, 238, 255);
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px
+}
+ 
+.ImgBox img{
+    width: 100%;
+    height:100%;
+}
+.ImgBox h3{
+    position: absolute;
+    color: white;
+    top: 90px;
+    left:30px
+}
+
+.Img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 70px 0px
+}
+.Img:nth-of-type(4){
+    margin-left: 50px;
+}

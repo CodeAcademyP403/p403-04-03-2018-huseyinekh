@@ -1,0 +1,174 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(228, 228, 228);
+}
+.container{
+    width: 1000px;
+    height: 700px;
+    border: 1px solid   rgb(102, 102, 102);
+    background: linear-gradient(to left, rgb(255, 254, 254), rgb(208, 207, 207));
+    position: relative;
+    float: right;
+    left: -20%;
+    margin-top: 100px;
+border-radius: 10px;
+box-shadow: 1px 5px 20px 1px grey;
+
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(253, 253, 253);
+    border-bottom: 1px solid rgb(148, 148, 148);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+
+}
+/* title */
+
+
+/* Header Logo */
+header .logo{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    margin:10px 60px;
+}
+header .logo img{
+    width: 100%;
+    height: 50px
+}
+.title{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid black;
+    background-color: rgb(218, 216, 219);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.LeftElements .circle{
+    width: 12px;
+    height: 12px;
+    background-color: rgba(242, 70, 70, 0.878);
+    float: left;
+    margin:10px 4px;
+    border-radius: 100%
+}
+.LeftElements .circle:nth-of-type(2){
+    background-color: rgba(216, 216, 68, 0.816)
+}
+.LeftElements .circle:nth-of-type(3){
+    background-color: rgba(57, 194, 91, 0.802)
+}
+form{
+    background-color: rgb(245, 245, 245);
+    width: 400px;
+    border-radius: 10px;
+    top: 7px;
+    left: 303px;
+    position: absolute;
+    float: left;
+}
+form i{
+    font-size: 13px
+}
+form i:nth-of-type(1){
+    margin-left: 180px;
+}
+
+form::first-line{
+ 
+}
+    
+.title .plus{
+    left: 978px;
+    top: 8px;
+    position: absolute;
+    font-size: 23px;
+    cursor: pointer;
+    color: rgb(102, 102, 102);
+}
+/* NAVIGATION */
+nav ul{
+    left: 292px;
+    position: absolute
+}
+
+nav ul li{
+float:left;
+margin:28px 10px;
+font-size: 12px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+nav ul li a{
+    color: rgb(141, 141, 141);
+    font-weight: 700
+}
+nav ul li:nth-of-type(1) a{
+    color: tomato;
+}
+nav button{
+    color: white;
+    background-color: rgb(255, 120, 71);
+    border-radius: 2px;
+    width:100px;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+    left: 782px;
+}
+/* BODY */
+.stone{
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    left: 349px;
+    bottom: -118px;
+}
+.stone img{
+    width: 337px;
+    height: 257px;
+  
+}
+.stone{
+    float: left;
+}
+.Content{
+    left: 130px;
+    top: 263px;
+    position: absolute;
+}
+.Content h1{
+    font-size: 40px
+}
+.Content button{
+    width: 130px;
+    height: 40px;
+    font-size: 12px;
+    color: rgb(121, 121, 121);
+    background-color: white;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 3px;
+    box-shadow: -2px 3px 11px 1px rgb(121, 121, 121);
+margin-top: 50px;
+cursor: pointer;
+
+}
+section .icon{
+    position: absolute;
+    top: 170px;
+    font-size: 20px;
+    background-color: rgb(199, 199, 199);
+    padding: 7px;
+    box-shadow: 1px 5px 10px 1px grey;
+    cursor: pointer;
+}
